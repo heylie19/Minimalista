@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modas MyH - Minimal</title>
+  <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+  <header class="sticky-header">
+    <h1>🛍️ Modas MyH</h1>
+  </header>
+  <main id="app">
+    <div class="product-display">
+      <button id="prev-btn" class="nav-btn">⬅️</button>
+      <div class="product-image-container">
+        <img id="product-img" src="" alt="Producto">
+      </div>
+      <button id="next-btn" class="nav-btn">➡️</button>
+    </div>
+    <div class="product-info">
+      <h2 id="product-name"></h2>
+      <p id="product-description"></p>
+      <p id="product-price"></p>
+      <button id="add-btn">Añadir al carrito</button>
+    </div>
+  </main>
+  <button id="fav-btn" class="floating-btn">🤍</button>
+  <button id="cart-btn" class="floating-btn">🛒 <span id="cart-count">0</span></button>
+
+  <script src="app.js"></script>
+</body>
+</html>
